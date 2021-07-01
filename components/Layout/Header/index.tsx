@@ -1,12 +1,16 @@
 import { Logo } from "./Logo";
-import { Menu } from "./Menu";
+import { Container } from './styles'
+import { SwitcherMode } from './SwitcherMode'
 
+interface HeaderProps {
+  onToggleTheme: () => void;
+}
 
-export function Header() {
+export function Header({ onToggleTheme }: HeaderProps) {
   return (
-    <header>
+    <Container>
       <Logo />
-      <Menu />
-    </header >
+      <SwitcherMode onToggleTheme={onToggleTheme} />
+    </Container >
   )
 }

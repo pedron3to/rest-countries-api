@@ -8,12 +8,12 @@ export default createGlobalStyle`
 }
 
 body {
-  background: ${props => props.theme.backgroundColor};
-  color: ${props => props.theme.textColor};
+  background: ${({ theme }) => theme.backgroundColor};
+  color: ${({ theme }) => theme.textColor};
   -webkit-font-smoothing: antialiased;
   font-family: 'Nunito', sans-serif;
-  
 }
+
 body, input, button {
   font-size: 16px;
 }
@@ -22,5 +22,25 @@ h1, h2, h3, h4, h5, h6, strong {
 }
 button {
   cursor: pointer;
+}
+
+h1 {
+  font-size: ${({ theme }) => theme.font.large};
+  font-weight: 800;
+
+  @media screen and (max-width: 575px) {
+    font-size: ${({ theme }) => theme.font.medium};
+  }
+}
+
+
+h2 {
+  font-size: ${({ theme }) => theme.font.medium};
+  font-weight: 600;
+
+  @media screen and (max-width: 575px) {
+      font-size: ${({ theme }) => theme.font.medium};
+      font-weight: 600;
+    } 
 }
 `;

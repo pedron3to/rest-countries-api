@@ -3,12 +3,13 @@ import { Header } from "./Header";
 
 interface LayoutProps {
   children: ReactNode;
+  onToggleTheme: () => void;
 }
 
-export function Layout({ children }: LayoutProps) {
+export function Layout({ children, onToggleTheme }: LayoutProps) {
   return (
     <main>
-      <Header />
+      <Header onToggleTheme={onToggleTheme} />
       {children}
     </main>
   )
