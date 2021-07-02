@@ -8,5 +8,5 @@ export const shared = {
     medium: '0.875rem',
     large: '1rem',
   },
-  borderRadius: '1rem',
+  borderRadius: '0.5rem',
 }

@@ -1,7 +1,7 @@
-
+import { HomeContent } from '../components/HomeContent'
 
 export default function Home() {
   return (
-    <div>Hello World</div>
+    <HomeContent />
   )
 }

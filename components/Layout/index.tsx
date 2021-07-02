@@ -8,9 +8,9 @@ interface LayoutProps {
 
 export function Layout({ children, onToggleTheme }: LayoutProps) {
   return (
-    <main>
+    <>
       <Header onToggleTheme={onToggleTheme} />
       {children}
-    </main>
+    </>
   )
 }
