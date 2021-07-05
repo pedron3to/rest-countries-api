@@ -1,11 +1,15 @@
 import React from "react";
+import { Filter } from "../Filter";
 import { Input } from "../input";
-import { Container } from "./styled";
+import { Container, SearchContainer } from "./styles";
 
 export function HomeContent() {
   return (
     <Container>
-      <Input />
+      <SearchContainer>
+        <Input />
+        <Filter />
+      </SearchContainer>
     </Container>
   )
 }

@@ -6,7 +6,7 @@ export const Container = styled.div`
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  height: 1.25rem;
+  height: 1rem;
 
   > i{
     height: 16px;

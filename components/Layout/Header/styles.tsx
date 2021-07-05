@@ -5,11 +5,10 @@ export const Container = styled.header`
   background: ${({ theme }) => theme.elements};
   display: flex;
   padding: 0 5rem 0 5rem;
-
   align-items: center;
   justify-content: space-between;
 
-  box-shadow: 0px .25rem .75rem rgba(0, 0, 0, 0.05); 
+  box-shadow: ${({ theme }) => theme.shadow}; 
 
   @media screen and (max-width: 575px) {
       padding: 0 1rem 0 1rem;
