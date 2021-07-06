@@ -26,8 +26,8 @@ export const SearchContainer = styled.div`
   @media screen and (max-width: 890px) {
     align-items: start;
     flex-direction: column;
-    padding: 1rem;
   }
+
 `;
 
 
@@ -37,12 +37,26 @@ export const FilterContainer = styled.div`
 `;
 
 export const CardContainer = styled.div`
+ width: 100%;
+ max-width: 1280px;
+ padding-left: 1rem;
+ padding-right: 1rem;
  display: grid;
- 
  grid-template-columns: repeat(4, 1fr);
  row-gap: 3rem;
-
+ column-gap: 3rem;
  justify-content: space-between;
  margin-top: 3rem;
+
+ @media screen and (max-width: 1150px) {
+  grid-template-columns: repeat(3, 1fr);
+ }
+ @media screen and (max-width: 800px) {
+  grid-template-columns: repeat(2, 1fr);
+ }
+ @media screen and (max-width: 575px) {
+  grid-template-columns: repeat(1, 1fr);
+ }
+ 
   
 `;

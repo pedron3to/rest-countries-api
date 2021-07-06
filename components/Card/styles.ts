@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const CardContainer = styled.div`
-  width: 16.5rem;
+  width: 100%;
   height: 21rem;
   background-color: ${({ theme }) => theme.elements};
   border-radius: ${({ theme }) => theme.borderRadius};
