@@ -6,9 +6,6 @@ export const Container = styled.header`
   background: ${({ theme }) => theme.elements};
   align-items: center;
   justify-content: center;
-  padding: 0 1rem 0 1rem;
-
-
   box-shadow: ${({ theme }) => theme.shadow}; 
 
   > div {

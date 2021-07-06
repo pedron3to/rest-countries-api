@@ -1,7 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.main`
-padding: 3rem 5rem 3rem 5rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+padding-top: 3rem;
+
+  
 
 @media screen and (max-width: 575px) {
     padding: 1.5rem 1rem 1.5rem 1rem;
@@ -9,12 +15,18 @@ padding: 3rem 5rem 3rem 5rem;
 `;
 
 export const SearchContainer = styled.div`
+  max-width:1280px;
+  width: 100%;
   display : flex;
   justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
   @media screen and (max-width: 890px) {
+    align-items: start;
     flex-direction: column;
-    padding: 1.5rem 1rem 1.5rem 1rem;
+    padding: 1rem;
   }
 `;
 
