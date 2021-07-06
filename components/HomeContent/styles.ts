@@ -23,3 +23,14 @@ export const FilterContainer = styled.div`
   display: flex;
   flex-direction: column;
 `;
+
+export const CardContainer = styled.div`
+ display: grid;
+ 
+ grid-template-columns: repeat(4, 1fr);
+ row-gap: 3rem;
+
+ justify-content: space-between;
+ margin-top: 3rem;
+  
+`;

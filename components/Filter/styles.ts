@@ -19,14 +19,13 @@ export const ButtonFilter = styled.button`
     margin-right: 0.5rem;
     font-weight: 500;
   }
-
 `;
 
 export const Ul = styled.ul`
   width: 12.5rem;
   height: 10rem;
   padding: 0.75rem 1.5rem;
-  margin-top: 1rem;
+  margin-top: .25rem;
 
   list-style: none;
   border-radius: ${({ theme }) => theme.borderRadius};
