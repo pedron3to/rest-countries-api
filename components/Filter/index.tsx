@@ -15,9 +15,8 @@ export function Filter() {
       <ButtonFilter onClick={handleClick}>
         <h2>Filter by Region</h2>
         <GoChevronDown />
-
-
       </ButtonFilter>
+
       {dropdown && <DropDown />}
     </>
   )

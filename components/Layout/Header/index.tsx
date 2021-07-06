@@ -9,8 +9,11 @@ interface HeaderProps {
 export function Header({ onToggleTheme }: HeaderProps) {
   return (
     <Container>
-      <Logo />
-      <SwitcherMode onToggleTheme={onToggleTheme} />
+      <div>
+        <Logo />
+        <SwitcherMode onToggleTheme={onToggleTheme} />
+
+      </div>
     </Container >
   )
 }
