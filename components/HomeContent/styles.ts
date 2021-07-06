@@ -17,3 +17,9 @@ export const SearchContainer = styled.div`
     padding: 1.5rem 1rem 1.5rem 1rem;
   }
 `;
+
+
+export const FilterContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
