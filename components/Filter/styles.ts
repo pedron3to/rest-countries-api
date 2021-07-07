@@ -22,10 +22,11 @@ export const ButtonFilter = styled.button`
 `;
 
 export const Ul = styled.ul`
+  position: absolute;
   width: 12.5rem;
   height: 10rem;
   padding: 0.75rem 1.5rem;
-  margin-top: .25rem;
+  margin-top: 4rem;
 
   list-style: none;
   border-radius: ${({ theme }) => theme.borderRadius};
