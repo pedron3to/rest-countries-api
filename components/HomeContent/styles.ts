@@ -58,6 +58,8 @@ export const CardContainer = styled.div`
  
  @media screen and (max-width: 575px) {
   grid-template-columns: repeat(1, 1fr);
+  padding-left: 3rem;
+  padding-right: 3rem;
  }
  
   
