@@ -2,13 +2,15 @@ import {
   CardContainer,
   Flag,
   Country,
-  Info,
-  TitleInfo,
-  TextInfo,
+  // Info,
+  // TitleInfo,
+  // TextInfo,
   InfoContainer,
   CountryContainer
 
 } from './styles'
+
+import { Info } from '../Info'
 
 export function Card() {
   return (
@@ -17,18 +19,9 @@ export function Card() {
       <CountryContainer>
         <Country>Country</Country>
         <InfoContainer>
-          <Info>
-            <TitleInfo>Population:</TitleInfo>
-            <TextInfo>81.9000.00</TextInfo>
-          </Info>
-          <Info>
-            <TitleInfo>Region:</TitleInfo>
-            <TextInfo>Europe</TextInfo>
-          </Info>
-          <Info>
-            <TitleInfo>Capital:</TitleInfo>
-            <TextInfo>Berlin</TextInfo>
-          </Info>
+          <Info title="Population:" info="81.9000.00" />
+          <Info title="Region:" info="Europe" />
+          <Info title="Capital:" info="Berlin" />
         </InfoContainer>
       </CountryContainer>
     </CardContainer>
