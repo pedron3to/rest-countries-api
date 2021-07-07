@@ -1,7 +1,7 @@
 import { Container, InputWrapper } from './styles'
 import { BsSearch } from 'react-icons/bs'
 
-export function Input() {
+export function SearchInput() {
   return (
     <Container>
       <BsSearch size={16} />

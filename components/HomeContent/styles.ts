@@ -7,10 +7,8 @@ align-items: center;
 width: 100%;
 padding-top: 3rem;
 
-  
-
 @media screen and (max-width: 575px) {
-    padding: 1.5rem 1rem 1.5rem 1rem;
+    padding: 1.5rem 0 1.5rem 0;
   }
 `;
 

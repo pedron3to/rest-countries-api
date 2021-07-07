@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  
 
   @media screen and (max-width: 890px) {
+    width: 100%;
      margin-bottom: 2.5rem;
  }
   > svg {
-  margin-left: 2rem;
+  margin-left: 1rem;
   position: absolute;
   margin-top: 1.25rem;
 
@@ -33,6 +35,5 @@ export const InputWrapper = styled.input`
       width: 100%;
       padding-left: 3rem;
     }
-
-  
+ 
 `;

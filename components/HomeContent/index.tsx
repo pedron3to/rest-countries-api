@@ -1,14 +1,14 @@
 import React from "react";
 import { Card } from "../Card";
 import { Filter } from "../Filter";
-import { Input } from "../input";
+import { SearchInput } from "../SearchInput";
 import { Container, SearchContainer, FilterContainer, CardContainer } from "./styles";
 
 export function HomeContent() {
   return (
     <Container>
       <SearchContainer>
-        <Input />
+        <SearchInput />
         <FilterContainer>
           <Filter />
         </FilterContainer>
