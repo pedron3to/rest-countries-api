@@ -6,6 +6,9 @@ export const CardContainer = styled.div`
   background-color: ${({ theme }) => theme.elements};
   border-radius: ${({ theme }) => theme.borderRadius};
 
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 export const Flag = styled.div`

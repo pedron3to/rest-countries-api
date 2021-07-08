@@ -34,6 +34,7 @@ h1 {
 }
 
 
+
 h2 {
   font-size: ${({ theme }) => theme.font.medium};
   font-weight: 600;
