@@ -1,4 +1,4 @@
-import Link from 'next/Link'
+import Link from 'next/Link';
 import { BiArrowBack } from 'react-icons/bi'
 
 import { LargeButton, NormalButton } from './styles'
@@ -9,7 +9,7 @@ interface ButtonProps {
 
 export function Button({ title, type }: ButtonProps) {
   return (
-    type === 'back'
+    type === "back"
       ? <Link href='/'>
         <LargeButton >
           <BiArrowBack size={16} />
@@ -19,6 +19,5 @@ export function Button({ title, type }: ButtonProps) {
       : <NormalButton>
         <h2>{title}</h2>
       </NormalButton >
-
   )
 }

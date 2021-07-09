@@ -12,18 +12,28 @@ import {
 } from './styles'
 
 import { Info } from '../Info'
+import { urlObjectKeys } from 'next/dist/next-server/lib/utils'
 
-export function Card() {
+interface CardProps {
+  name: 'string';
+  population: 'string';
+  region: 'string';
+  capital: 'capital';
+  flag: 'string';
+}
+
+export function Card({ name, population, region, capital, flag }: CardProps) {
   return (
-    <Link href="/country">
+    <Link href={`/country/${name}`}>
       <CardContainer>
-        <Flag />
+        <Flag style={{ backgroundImage: `url(${flag})` }}>
+        </Flag>
         <CountryContainer>
-          <Country>Country</Country>
+          <Country>{name}</Country>
           <InfoContainer>
-            <Info title="Population:" info="81.9000.00" />
-            <Info title="Region:" info="Europe" />
-            <Info title="Capital:" info="Berlin" />
+            <Info title="Population:" info={population} />
+            <Info title="Region:" info={region} />
+            <Info title="Capital:" info={capital} />
           </InfoContainer>
         </CountryContainer>
       </CardContainer>

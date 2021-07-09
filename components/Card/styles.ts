@@ -14,8 +14,10 @@ export const CardContainer = styled.div`
 export const Flag = styled.div`
   width: 100%;
   height: 10rem;
-  background-color: black;
   border-radius: ${({ theme }) => theme.borderRadius} ${({ theme }) => theme.borderRadius} 0 0;
+  background-repeat: no-repeat;
+  background-size: 21rem 12rem;
+  background-position: center;
 `;
 export const Country = styled.div`
   font-size: ${({ theme }) => theme.font.large};
