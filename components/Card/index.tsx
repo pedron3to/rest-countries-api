@@ -23,11 +23,12 @@ interface CardProps {
 }
 
 export function Card({ name, population, region, capital, flag }: CardProps) {
+
+
   return (
     <Link href={`/country/${name}`}>
       <CardContainer>
-        <Flag style={{ backgroundImage: `url(${flag})` }}>
-        </Flag>
+        <Flag style={{ backgroundImage: `url(${flag})` }} />
         <CountryContainer>
           <Country>{name}</Country>
           <InfoContainer>

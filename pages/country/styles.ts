@@ -7,17 +7,17 @@ export const Container = styled.main`
   width: 100%;
   padding-top: 5rem;
   padding-bottom: 2rem;
- 
+
   @media screen and (max-width: 575) {
   padding-top: 2.5rem;
    }
-    
+
 `;
 
 export const CountryContainer = styled.div`
   max-width: 1280px;
   width: 100%;
- 
+
 
   @media screen and (max-width: 1300px) {
     display: flex;
@@ -50,13 +50,16 @@ export const Flag = styled.div`
  width: 35rem;
  height: 25rem;
  background-color: purple;
+ background-repeat: no-repeat;
+ background-size: 38rem 28rem;
+ background-position: center;
 
  @media screen and (max-width: 575px) {
   width: 19rem;
   height: 14rem;
-    
+
   }
- 
+
 `;
 export const InfoSection = styled.div`
   width: 35rem;
@@ -67,7 +70,7 @@ export const InfoSection = styled.div`
     padding-right: 1rem;
   }
 
-  
+
 `;
 export const CountryName = styled.div`
   font-size: 1.75rem;

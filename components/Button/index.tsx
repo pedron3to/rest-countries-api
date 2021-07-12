@@ -4,7 +4,7 @@ import { BiArrowBack } from 'react-icons/bi'
 import { LargeButton, NormalButton } from './styles'
 interface ButtonProps {
   title: string;
-  type?: 'back' | undefined;
+  type?: 'back' | null;
 }
 
 export function Button({ title, type }: ButtonProps) {

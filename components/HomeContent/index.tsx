@@ -16,13 +16,12 @@ export function HomeContent() {
     const fetchCountryData = async () => {
       const response = await fetch(url)
       const countries = await response.json();
-
       setCountries(countries)
+
 
     }
 
     fetchCountryData();
-
   }, [])
 
   return (
