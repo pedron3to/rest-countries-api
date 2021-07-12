@@ -34,7 +34,7 @@ $ git clone https://github.com/pedron3to/rest-countries-api.git
 
 ```bash
 $ cd ..
-$ cd /frontend
+$ cd rest-countries-api
 # Install Dependencies
 $ yarn
 ```
