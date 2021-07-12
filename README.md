@@ -29,17 +29,7 @@ This project was made using the follow technologies:
 
 ```bash
 # Clone Repository
-$ git clone https://github.com/lucaslauriano/survivors-challange.git
-```
-
-```bash
-$ cd /backend
-# Install Dependencies
-$ yarn
-```
-
-```bash
-$ yarn start
+$ git clone https://github.com/pedron3to/rest-countries-api.git
 ```
 
 ```bash
@@ -50,10 +40,10 @@ $ yarn
 ```
 
 ```bash
-$ yarn start
+$ yarn dev
 ```
 
-Go to http://localhost:3000/login to see the result.
+Go to http://localhost:3000 to see the result.
 # :sparkles: Contributing
 
 - Fork this repository;
